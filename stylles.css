@@ -1,0 +1,112 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-image: url(./img/R.jpeg);
+}
+.logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0;
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 0 auto;
+    border: 4px solid red;
+    padding: 44px 24px 23px;
+    margin-bottom: 10px;
+
+}
+
+label {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+select {
+    width: 327px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    margin: 3px 0px 20px;
+    padding-left: 10px;
+    border: 1px solid red;
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input {
+    width: 327px;
+    height: 40px;
+    margin: 3px 0px 20px;
+    padding-left: 10px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    border-radius: 9px;
+    background: red;
+    margin-bottom: 25px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+section {
+    width: 327px;
+    height: 280px;
+    border-radius: 20px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.arrow {
+    width: 80px;
+    margin: 10px 0;
+}
+
+.coin-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    line-height: 18px;
+}
